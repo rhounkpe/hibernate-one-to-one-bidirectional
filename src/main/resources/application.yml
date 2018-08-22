@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 567_ovieczka
+    url: jdbc:mysql://localhost/hibernate_onetoone_bidir?createDatabaseIfNotExist=TRUE&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
